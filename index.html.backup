@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>EMPTINESS LAB</title>
+        <meta name="description"	 content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/materialize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/custom.css">
+       
+        
+        
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91873502-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+   
+   
+   
+
+  
+   <!-- PRODUCTLISTA--> 
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'louqe.myshopify.com',
+      apiKey: 'f4a55b2d094c9fee42e04497bf020b27',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: 36942250027,
+        node: document.getElementById('collection-component-f24cdc181c3'),
+        moneyFormat: '%E2%82%AC%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "buttonDestination": "modal",
+    "variantId": "all",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "options": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "BUY"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(33.33333% - 30px)",
+          "margin-left": "30px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#009688",
+        "font-family": "Roboto, sans-serif",
+        ":hover": {
+          "background-color": "#00877a"
+        },
+        "border-radius": "100px",
+        ":focus": {
+          "background-color": "#00877a"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Roboto, sans-serif"
+      },
+      "description": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Roboto",
+      "Roboto",
+      "Roboto",
+      "Roboto",
+      "Roboto",
+      "Roboto"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#009688",
+        "font-family": "Roboto, sans-serif",
+        ":hover": {
+          "background-color": "#00877a"
+        },
+        "border-radius": "100px",
+        ":focus": {
+          "background-color": "#00877a"
+        },
+        "font-weight": "normal"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#009688",
+        "font-family": "Roboto, sans-serif",
+        ":hover": {
+          "background-color": "#00877a"
+        },
+        "border-radius": "100px",
+        ":focus": {
+          "background-color": "#00877a"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Roboto, sans-serif"
+      },
+      "description": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal"
+      },
+      "compareAt": {
+        "font-family": "Roboto, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Roboto",
+      "Roboto",
+      "Roboto",
+      "Roboto",
+      "Roboto",
+      "Roboto"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Roboto, sans-serif",
+        "background-color": "#009688",
+        ":hover": {
+          "background-color": "#00877a"
+        },
+        ":focus": {
+          "background-color": "#00877a"
+        },
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Roboto"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Roboto, sans-serif"
+      },
+      "select": {
+        "font-family": "Roboto, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Roboto",
+      "Roboto"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-30px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>   
+   
+   
+    </head>
+<body>
+  
+ 
+   <div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+   
+   
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+<nav class="z-depth-0">
+    <div id="nav" class="nav-wrapper">
+        <a href="index.html" class="brand-logo left"><img src="img/svg/logo.svg"></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse right hide-on-med-and-up"><em class="large material-icons black-text">menu</em></a>
+        <ul class="right hide-on-small-only">
+          <li><a href="index.html">HOME</a></li>
+            <li><a href="#highlights">FEATURES</a></li>
+            <li><a href="#specs">SPECS</a></li>
+            <li><a href="#getone">BUY</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+			
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#highlights">FEATURES</a></li>
+            <li><a href="#specs">SPECS</a></li>
+            <li><a href="#getone">BUY</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+			
+        </ul>
+    </div>
+</nav>
+
+    <header class="aboutintro valign-wrapper" id="grad1"> <!-- SÄKERSTÄLLA FULL HÖJD!-->
+       
+       
+      <div class="container center-align">
+           <div class="row">
+          		<div class="col s12 m8 offset-m2 l10 offset-l1">
+          		<img class="responsive-img" src="img/img/product/sideb.png">
+			   </div>
+           		<div class="col s12 m12 l8 offset-l2">
+          		  <h1 style="margin-top: 0px;">GHOST S1 MkII </a></h1>
+           		  <div class="hide-on-med-only">
+           		  <h6 id="rubrik">With the fundamental idea of a computer case designed to hold uncompromised performance in a Scandinavian, minimalistic and stunningly small form factor - GHOST S1 was born.</h6></div>
+
+           		          		  
+           		  
+            </div>
+          </div>  
+             
+             <div class="bottom-fix">
+             <a href="#media" class="btn-floating waves-effect waves-light teal pulse"><i class="material-icons">arrow_downward</i></a>
+
+             </div>
+            
+          
+            
+       </div>
+       
+       <script>
+		   
+		   
+		   
+// Set the date we're counting down to
+var countDownDate = new Date("Nov 29, 2017 21:00:00 GMT+01:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "D " + hours + "H "
+    + minutes + "M " + seconds + "S";
+  
+	  if (isNaN(seconds)===true) {
+                document.getElementById("demo").innerHTML = "NOV 29TH 21:00 CET";
+    }
+	
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "IT'S LIVE!";
+    }
+}, 1000);
+</script>
+
+        
+    </header>
+
+  
+       <!--<section id="intro" class="flytande grey lighten-3">
+<div class="container center-align">
+            <div class="row">
+             <div class="col s12 l8 offset-l2">
+               <h1>A NEW ERA IN PC CASE DESIGN</h1>
+               <h6>Milled from solid blocks of aluminum, this case offers a level of quality seldom seen in any product out there. State of the art manufacturing precision and technology has removed previous truths and restrictions of computer cases – fundamentally changing the designers approach to construction.</h6>
+               
+			</div>
+			</div>
+	
+			
+		</div>
+       </section>
+       
+       -->
+       
+       
+              <section id="media" class="grey darken-3">
+
+	 
+</section>
+       
+    <section id="highlights" class="grey lighten-3">
+       
+          
+        
+           <div class="container center-align">
+           <div class="row">
+           <div class="col s12 l8 offset-l2 center-align">
+             <h1>LET'S CHALLENGE THE CONCEPT</h1>
+             <h6>Maximizing functionality while simplifying the layout has been the primary guiding principle throughout the design process. The GHOST S1 was designed from the inside out, challenging the concept of a box. The stand-alone spine with built-in features gives unparalleled rigidity, flexibility and accessibility</h6>
+           </div>
+           
+           <div class="col s12 l8 offset-l2 center-align">
+            
+   
+              <div class="poi">
+              <img class="responsive-img" src="img/img/product/y4.png">
+              
+               <ul id="appear" class="hide-on-small-only">			
+                 
+                  
+                 <li><a id="poi1" class="btn-floating tooltipped teal pulse" data-position="bottom" data-delay="50" data-tooltip="Milled from solid blocks of aluminum"><i class="material-icons">add</i></a></li>
+                 
+                 <li><a id="poi2" class="btn-floating tooltipped teal pulse" data-position="top" data-delay="50" data-tooltip="Motherboard & PSU cell"><i class="material-icons">add</i></a></li>
+                 
+                 <li><a id="poi3" class="btn-floating tooltipped teal pulse" data-position="bottom" data-delay="50" data-tooltip="Dual orientation PSU bracket"><i class="material-icons">add</i></a></li>
+                  
+                 <li><a id="poi4" class="btn-floating tooltipped teal pulse" data-position="right" data-delay="50" data-tooltip="GPU cell"><i class="material-icons">add</i></a></li>
+                        
+                 
+                  </ul>
+                  
+			   </div>
+              
+              
+               </div>
+               
+			   </div>
+              <div class="hide-on-med-and-up">
+               <div class="row">
+               	
+               		<div class="col s12 center-align">
+               		<p class="teal-text"><i class="tiny material-icons">screen_rotation</i> Rotate for highlights</p>
+               		</div>
+               		
+               	</div>
+               	
+               </div>
+                </div>
+        
+	   </seection>
+   
+   
+   <section id="highlights2" class="grey lighten-3">
+       
+          
+        
+           <div class="container center-align">
+           <div class="row">
+           <div class="col s12 l8 offset-l2 center-align">
+             <h2 style="padding-top: 0px;">A BUILD LIKE NO OTHER</h2>
+             <h6>The hardware of your choice is all bolted on directly to the "Spine", making it the single most important component of the case. This enables the fastest and most convenient build experience possible with open component access from every angle.</h6>
+           </div>
+           
+           <div class="col s12 center-align">
+            
+   
+              <div class="poi">
+              <img class="responsive-img" src="img/img/product/y5b.png">
+              
+               <ul id="appear" class="hide-on-small-only">			
+                 <li><a id="poi21" class="btn-floating tooltipped teal pulse" data-position="bottom" data-delay="50" data-tooltip="Dual orientation PSU bracket"><i class="material-icons">add</i></a></li>
+                  
+                 <li><a id="poi22" class="btn-floating tooltipped teal pulse" data-position="left" data-delay="50" data-tooltip="Opening for additional case fan or HDD"><i class="material-icons">add</i></a></li>
+                  
+                 <li><a id="poi23" class="btn-floating tooltipped teal pulse" data-position="below" data-delay="50" data-tooltip="Water cooling pipe opening and zip tie holes"><i class="material-icons">add</i></a></li>
+                        
+                 <li><a id="poi24" class="btn-floating tooltipped teal pulse" data-position="right" data-delay="50" data-tooltip="M.2 SSD access from back"><i class="material-icons">add</i></a></li>
+                 
+                 <li><a id="poi25" class="btn-floating tooltipped teal pulse" data-position="right" data-delay="50" data-tooltip="Armored and shielded PCIe 16x Gen3+ riser
+"><i class="material-icons">add</i></a></li>
+                  </ul>
+                  
+			   </div>
+               </div>
+               
+			   </div>
+               
+                <div class="hide-on-med-and-up">
+               <div class="row">
+               	
+               		<div class="col s12 center-align">
+               		<p class="teal-text"><i class="tiny material-icons">screen_rotation</i> Rotate for highlights</p>
+               		</div>
+               		
+               	</div>
+               	
+               </div>
+                </div>
+        
+	   </section>
+	  
+	  
+	   
+	   
+	   
+	   <section id="highlights4" class="grey lighten-3">
+       
+          
+        
+           <div class="container center-align">
+           <div class="row">
+           <div class="col s12 l8 offset-l2 center-align">
+             <h2 style="padding-top: 0px;">ONE SIZE DOESN'T FIT ALL</h2>
+             <h6>We don't believe a computer case should be bigger than necessary. However, being a performance junky sometimes means you need to fit more stuff than the Average Joe. The TopHat modules are designed to expand the volume of your GHOST S1 XS, making it a S, M, or L. Add a TopHat in the bottom, put it on top or even stack them on each other.</h6>
+           </div>
+           
+           <div class="col s12 center-align">
+            
+   
+              <div class="poi">
+              <img class="responsive-img" src="img/img/product/y6.png">
+              
+               <ul id="appear" class="hide-on-small-only">			
+                 <li><a id="poi41" class="btn-floating tooltipped teal pulse" data-position="right" data-delay="50" data-tooltip="Small"><i class="material-icons">add</i></a></li>
+                  
+                 <li><a id="poi42" class="btn-floating tooltipped teal pulse" data-position="right" data-delay="50" data-tooltip="Medium"><i class="material-icons">add</i></a></li>
+                  
+                 <li><a id="poi43" class="btn-floating tooltipped teal pulse" data-position="right" data-delay="50" data-tooltip="Large"><i class="material-icons">add</i></a></li>
+                        
+                 
+                </ul>
+                  
+			   </div>
+               </div>
+               
+			   </div>
+                <div class="hide-on-med-and-up">
+               <div class="row">
+               	
+               		<div class="col s12 center-align">
+               		<p class="teal-text"><i class="tiny material-icons">screen_rotation</i> Rotate for highlights</p>
+               		</div>
+               		
+               	</div>
+               	
+               </div>
+                </div>
+        
+	   </section>
+	   
+	   
+	   	   <section id="highlights5" class="grey lighten-3">
+       
+          
+        
+           <div class="container center-align">
+           <div class="row">
+           <div class="col s12 l8 offset-l2 center-align">
+             <h2 style="padding-top: 0px;">A QUALITY YOU CAN FEEL</h2>
+             <h6>Milled from solid blocks of aluminum, this case offers a level of quality rarely seen in any computer case out there. With a glass blasted anodized aluminum exterior the GHOST S1 has a quality that you actually can feel.</h6>
+           </div>
+           
+           <div class="col s12 center-align">
+            
+   
+                            <img class="responsive-img" src="img/img/product/y3b.png">
+              
+              
+             </div>
+               
+		     </div>
+               
+                </div>
+        
+	   </section>
+	   
+	   <section id="highlights6" class="grey lighten-3">
+       
+          
+        
+           <div class="container center-align">
+           <div class="row">
+           <div class="col s12 l8 offset-l2 center-align">
+             <h2 style="padding-top: 0px;">DESIGNED TO (NOT) STAND OUT</h2>
+             <h6>The Ghost stands out with its architecture and configurability, removing the traditional limits of a SFF case and at the same time it’s clean and minimal exterior lets it blend in in every setting</h6>
+           </div>
+           
+           <div class="col s12 center-align">
+            
+   
+              <div class="poi">
+              <img class="responsive-img" src="img/img/product/y7.png">
+              
+               <ul id="appear" class="hide-on-small-only">			
+                 <li><a id="poi51" class="btn-floating tooltipped teal pulse" data-position="right" data-delay="50" data-tooltip="Pull here to remove top grill"><i class="material-icons">add</i></a></li>
+                  
+                 <li><a id="poi52" class="btn-floating tooltipped teal pulse" data-position="bottom" data-delay="50" data-tooltip="Glossy top plate"><i class="material-icons">add</i></a></li>
+                  
+                 <li><a id="poi53" class="btn-floating tooltipped teal pulse" data-position="top" data-delay="50" data-tooltip="Powerbutton & LED"><i class="material-icons">add</i></a></li>
+                        
+                 
+                  </ul>
+                  
+			   </div>
+               </div>
+               
+			   </div>
+                <div class="hide-on-med-and-up">
+               <div class="row">
+               	
+               		<div class="col s12 center-align">
+               		<p class="teal-text"><i class="tiny material-icons">screen_rotation</i> Rotate for highlights</p>
+               		</div>
+               		
+               	</div>
+               	
+               </div>
+                </div>
+                <div class="container center-align">
+           <div class="row">
+           <div class="col s12 l8 offset-l2 center-align">
+             <h1 style="padding-top: 0px;">AIRFLOW IN FOCUS</h1>
+             <h6>Cooling air is pulled in by each heat generating component and directed upwards through the top. This creates unparalleled cooling performance and allows for a system that is completely noiseless.</h6>
+           </div>
+           
+           <div class="col s12 center-align">
+            
+   
+              <div class="poi">
+              <img class="responsive-img" src="img/img/product/y8.png">
+              
+              
+                  
+			   </div>
+               </div>
+               
+			   </div>
+               
+                </div>
+        
+	   </section>
+	   
+	  
+	  
+	  
+	  
+	  <section id="variations" class="grey darken-3">
+       
+          
+        
+           <div class="container center-align">
+           <div class="row">
+           <div class="col s12 l8 offset-l2 center-align white-text">
+             <h1>SIZES &amp; COLORS</h1>
+           </div>
+             <div class="col s12 l8 offset-l2 center-align white-text">
+               <h6>The fundamental idea of GHOST S1 is a computer case designed to hold uncompromised performance in a package that looks stunning yet not bigger than necessary. To make it suitable for every occasion or placement the GHOST S1 comes in three colors and endless form factors - What's your combo? </h6>
+             </div>
+                       
+             <img class="responsive-img" src="img/img/product/y10b.png">
+                       
+           <div class="col s12 l8 offset-l2 center-align white-text">
+             <h6>GHOST S1 could be configured in different sizes by adding a TopHat of your choice. TopHats are acquired separately either in your order or when you are growing out of your XS. What you choose to use the extra space for is up to you, but we made it ready to fit the most common 120 mm accessories like fans and radiators right out-of-the-box. The architecture and configurability removes the traditional limits of SFF cases and let’s your imagination set the boundaries. Add a TopHat in the bottom, put it on top or even stack them on each other. For more customized mods we will make mounting brackets and accessories available for order and free download on our site - let us know what you require!</h6>
+           </div>
+		</div>
+			   
+			   <div class="separator">
+			   
+        <div class="row">
+                    
+                    <div class="col s12 m6 l4 offset-l2 center-align white-text">
+                      <h5>XS (NO TOPHAT)</h5>
+                      <h6>Right of the shelf, with no TopHat, GHOST S1 fits a spec that that meets the requirements of a hardcore gamer in terms of cooling, storage and full-length GPUs</h6>
+                      <a href="#!" id="clicker_xs" class="btn-floating waves-effect waves-light teal"><i class="material-icons">compare</i></a>
+                      	<a href="#!" id="clicker_color_xs" class="colorpicker btn-floating waves-effect waves-light teal" data-format="xs"><i class="material-icons">invert_colors</i></a>
+                     	<div class="variationcontainer">
+    						<img id="naked_xs" class="responsive-img" border="0" src="img/img/variations/xs_gr_naked.png" alt="">
+    						<img id="cover_xs" class="cornerimage responsive-img" border="0" src="img/img/variations/xs_gr_cover.png" alt="">
+				  	  </div>
+                   	
+                    	
+                      	
+                      	
+					</div>
+						
+						
+					<div class="col s12 m6 l4 center-align white-text">
+                   	  <h5>SMALL (TOPHAT)</h5>
+                    	<h6>The S TopHat extends your GHOST S1 height with 16 mm making it perfect for extra 2.5" SSDs, low profile case fans or just serve as a neat glove compartment on your desktop</h6>
+                    	<a href="#!" id="clicker_s" class="btn-floating waves-effect waves-light teal"><i class="material-icons">compare</i></a>
+                      	<a href="#!" id="clicker_color_s" class="btn-floating waves-effect waves-light teal"><i class="material-icons">invert_colors</i></a>
+                      	<div class="variationcontainer">
+    						<img id="naked_s" class="responsive-img" border="0" src="img/img/variations/s_gr_naked.png" alt="">
+    						<img id="cover_s" class="cornerimage responsive-img" border="0" src="img/img/variations/s_gr_cover.png" alt="">
+				  	  </div>
+                      	
+                      	
+					</div>
+					
+ 					<div class="col s12 m6 l4 offset-l2 center-align white-text">
+                   	  <h5>MEDIUM (TOPHAT)</h5>
+                     	<h6>The M TopHat extends your GHOST S1 height with 26 mm making it suitable for extra 3.5" HDDs, larger case fans or any other add-ons you might like to squeeze in there</h6>
+                     	<a href="#!" id="clicker_m" class="btn-floating waves-effect waves-light teal"><i class="material-icons">compare</i></a>
+                      	<a href="#!" id="clicker_color_m" class="btn-floating waves-effect waves-light teal"><i class="material-icons">invert_colors</i></a>
+                      	<div class="variationcontainer">
+    						<img id="naked_m" class="responsive-img" border="0" src="img/img/variations/m_gr_naked.png" alt="">
+    						<img id="cover_m" class="cornerimage responsive-img" border="0" src="img/img/variations/m_gr_cover.png" alt="">
+				  	  </div>
+                      	
+					</div>
+					
+					<div class="col s12 m6 l4 center-align white-text">
+                      <h5>LARGE (TOPHAT)</h5>
+                      <h6>The L TopHat extends your GHOST S1 height with 57 mm making room for water cooling, extra 3.5" HDDs, tons of 2.5"s, larger case fans or any other cat sized object you want to hook up</h6>
+                      <a href="#!" id="clicker_l" class="btn-floating waves-effect waves-light teal"><i class="material-icons">compare</i></a>
+						<a href="#!" id="clicker_color_l" class="btn-floating waves-effect waves-light teal"><i class="material-icons">invert_colors</i></a>
+                      	<div class="variationcontainer">
+    						<img id="naked_l" class="responsive-img" border="0" src="img/img/variations/l_gr_naked.png" alt="">
+    						<img id="cover_l" class="cornerimage responsive-img" border="0" src="img/img/variations/l_gr_cover.png" alt="">
+					  </div>
+						
+					</div>
+					
+					
+		</div>
+                        <div class="separator"></div>
+                         
+                         
+                         
+                          
+			   </div>
+                </div>
+        
+	   </section>
+	   
+	  
+	  
+	  
+   <!--
+   
+   <section id="slider" class="grey lighten-3 center-align">
+    
+   <div class="poi center-align">
+   	<div class="row">
+   	 
+   		<div class="carousel carousel-slider" data-indicators="true">
+   			<a class="carousel-item" href="#one!"><img src="img/img/product/ghosts1_1.png"></a>
+    		<a class="carousel-item" href="#two!"><img src="img/img/product/ghosts1_2.png"></a>
+    		<a class="carousel-item" href="#three!"><img src="img/img/product/ghosts1_3.png"></a>
+	   		
+      </div>
+		
+  <div class="hide-on-med-and-down">
+  <a  onclick="$('.carousel').carousel('prev')" href="javascript:void(0);" id="poiback" class="btn-floating waves-effect waves-light teal center-align"><i class="material-icons">arrow_back</i></a>
+  <a  onclick="$('.carousel').carousel('next')" href="javascript:void(0);" id="poiforward" class="btn-floating waves-effect waves-light teal center-align"><i class="material-icons">arrow_forward</i></a>
+  </div>
+		
+	 
+  	</div>
+  </div>
+  
+  
+  	</section> 
+  --> 
+  
+  <section id="highlights3" class="grey lighten-3">
+       
+          
+        
+           
+        
+	   </section>
+<section id="specs" class="center-align grey darken-3 white-text">
+	<div class="container center-align">
+					 <div class="row">
+						  <div class="col s12 center-align">
+						    <h1>SPECIFICATIONS</h1>
+						    
+					   </div>
+GHOST S1 MKII</div>
+ <div class="separator"></div>
+					<div class="row">
+			   		<div class="col s12 center-align">
+				   		<img class="responsive-img" src="img/svg/drawing.svg">
+						</div>
+					</div>
+					
+					
+					   <div class="separator"></div>
+		
+					
+
+
+					<div class="row">
+
+						<div class="col s12 m6 l4 center-align">
+						  <h5> DIMENSIONS (H x W x D)</h5>
+						  <h6>188 x 140 x 322 mm</h6>
+						</div>
+
+						<div class="col s12 m6 l4 center-align">
+							<h5>VOLUME & WEIGHT</h5>
+							<h6>8,2 L &amp; 2,5 kg</h6>
+						</div>
+
+						<div class="col s12 m6 l4 center-align">
+						  <h5>GPU </h5>
+						  <h6>Dual-Slot up to 305 mm long</h6>
+						</div>
+
+						<div class="col s12 m6 l4 center-align">
+						  <h5>MOTHERBOARD</h5>
+						  <h6>Mini-ITX</h6>
+						</div>
+
+							<div class="col s12 m6 l4 center-align">
+							  <h5>POWER SUPPLY </h5>
+							  <h6>SFX, SFX-L</h6>
+						</div>
+
+						<div class="col s12 m6 l4  center-align">
+						  <h5>CPU HEATSINK </h5>
+						  <h6>Up to 66 mm</h6>
+						</div>
+
+						<div class="col s12 m6 l4 center-align">
+						  <h5>WATER COOLING</h5>
+						  <h6>240 mm AIO radiator thickness 31.5 mm, 2 x 25 mm high fans w. L TopHat </h6>
+						</div>
+
+						<div class="col s12 m6 l4 center-align">
+						  <h5>STORAGE</h5>
+						  <h6>1 x 2.5" HDD/SSD, 3 x 2.5” with tray <br>
+						    + M.2</h6>
+						</div>
+
+						<div class="col s12 m6 l4 center-align">
+						  <h5>MATERIAL </h5>
+						  <h6>Extruded and milled heat-treated aluminum alloy and oxidized steel</h6>
+						</div>
+
+						<div class="col s12 m6 l4 center-align">
+						  <h5>COLORS</h5>
+						  <h6>Ash, Pangaea &amp;<br>
+						    Limestone</h6>
+						</div>
+
+							<div class="col s12 m6 l4 center-align">
+							  <h5> PCI RISER</h5>
+							  <h6>Included Armored and shielded Twin Axial 300 mm PCIe 16x Gen3+ riser</h6>
+							</div>
+
+						<div class="col s12 m6 l4 center-align">
+						  <h5>TOPHATS (ACCESSORY)</h5>
+						  <h6>S: 16 mm, M: 26 mm, L: 57 mm</h6>
+						</div>
+
+					</div>
+					   
+					   <div class="row">
+					   <div class="separator">
+					   	
+					   </div>
+			</div>
+					   
+
+					<div class="row">
+						<div class="col s12 center-align">
+						<ul id="dropdown1" class="dropdown-content">
+  <li><a href="files/specifications_ghost_s1_MkII.pdf" target="_blank">Full specification</a></li>
+  <li class="divider"></li>
+  <li><a href="files/heatsink_test_ghost_s1_MkII.pdf" target="_blank">Heatsink test</a></li>
+  <li class="divider"></li>
+  <li><a href="files/gpu_compatability_ghost_s1_MkII.pdf" target="_blank">GPU Compatibility list</a></li>
+</ul>
+						
+						<a class="dropdown-button waves-effect waves-light btn" href="#!" data-activates="dropdown1">DOCUMENTATION & TESTS<i class="material-icons right">arrow_drop_down</i></a>
+							
+					   	</div>
+					</div>
+
+
+					<div class="row">
+				   <div class="col s12 center-align">
+					   <div class="separator">
+					   </div>
+					   	
+					   </div>
+			</div>
+
+	</div>
+
+</section>
+   
+   
+   
+   
+   
+    <section id="getone" class="grey lighten-4">
+<div class="container center-align">
+            <div class="row">
+            <div class="col s12 l8 offset-l2 center-align">
+               <h1>HUNTING DOWN A GHOST</h1>
+               <h6>GHOST S1 is our first public computer case project and as an entrepreneurial design and engineering collective we leveraged the power of crowd funding on Kickstarter - and reached our target in less than a week. For you who didn't make it during the campaign, we now offer the opportunity to back us through this website.</h6>
+            </div>
+             
+            <div class="col s12 l12 center-align"> 
+               	<div id='collection-component-f24cdc181c3'></div>
+			</div>
+               
+            <div class="col s12 l8 offset-l2 center-align">
+              <h6>The Ghost S1 has been successfully funded and is now being ready for production. Many of you, who didn’t secure a Ghost during the campaign have contacted us asking to get on the Ghost hype. We are now giving you a chance do exactly that, become one of our devoted core backers and get a hold of the Ghost long before it hits the retail shelves!</h6>
+            </div>
+</div>
+			  
+			  <div class="separator"></div>
+			  
+			    <div class="row">     	
+               	<div class="col s12 center-align">
+               	
+               	<div id="mc_embed_signup" class="subscribe">
+  					
+  					
+  					<form action="//louqe.us15.list-manage.com/subscribe/post?u=0070bc7fe5071345b17e5d28c&amp;id=ed3371dbdf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate>
+   					
+    					<div id="mc_embed_signup_scroll">
+							
+							<div class="col s12 l4 offset-l3 center-align">
+							<input type="email" class="input-field black-text email" value="" name="EMAIL" id="email" placeholder="YOUR EMAIL" required>
+							</div>
+    							<div style="position: absolute; left: -5000px;" aria-hidden="true">
+    								<input type="text" name="b_0070bc7fe5071345b17e5d28c_ed3371dbdf" tabindex="-1" value="">
+    							</div>
+    							
+    							<div class="col s12 l2 center-align">
+    							<input type="submit" value="Subscribe" name="subscribe" id="subscribe" class="waves-effect waves-light btn">
+    							</div>
+    					</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	<div class="separator"></div>
+			
+		</div>
+       </section>
+   
+   
+   
+   
+
+  <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l4 m6 s12">
+                <h5><img style="height:50px;" src="img/svg/loki_small.svg" alt=""></h5>
+                
+              </div>
+			  </div>
+             <div class="row">
+              <div class="col l12 s12">
+             
+                <hr>
+              </div>
+			  </div>
+              <div class="row">
+              <div class="col l3 s12">
+                <h5 class="white-text"><strong>Analog</strong></h5>
+                <p class="white-text">
+               Warfvinges väg 18<br>
+               112 51 Stockholm<br>
+               Sweden
+                </p>
+              </div>
+              <div class="col l3 s12">
+                <h5 class="white-text"><strong>Digital</strong></h5>
+                <ul>
+                  <li><a class="white-text" href="#mailto:hello@louqe.com">hello@louqe.com</a></li>
+                  <li><a class="white-text" href="http://louqe.com">www.louqe.com</a></li>
+                </ul>
+              </div>
+              <div class="col l6 s12">
+                <h5 class="white-text"><strong>Social</strong></h5>
+                <p></p>
+                <a href="https://www.facebook.com/louqesweden" target="_blank"><img src="img/svg/fb_icon.svg" alt="" height="40px"/></a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/louqe_sweden/" target="_blank"><img src="img/svg/instagram_icon.svg" height="40px" alt=""/> </a>&nbsp;
+                <a href="https://www.youtube.com/channel/UCD-mM872RP3rckKExOfdEFw" target="_blank"><img src="img/svg/youtube_icon.svg" height="40px" alt=""/> </a>&nbsp;
+                <a href="https://twitter.com/louqesweden" target="_blank"><img src="img/svg/twitter_icon.svg" height="40px" alt=""/></a> 
+               
+		 		 </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+              <p class="white-text"> © 2016 LOUQE AB</p>
+            </div>
+            
+            </div>
+          </div>
+        </footer>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/sub.js"></script>
+    <script src="js/variant.js"></script>
+</body>
+</html>
