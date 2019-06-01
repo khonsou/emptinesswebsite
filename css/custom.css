@@ -1,0 +1,812 @@
+.flytande {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/bg/bg2.png");
+  width: 100%;
+	height: 950px;
+ }
+
+.startintro {
+  background-size: cover;
+  background-position: center;
+      height: 100vh; }
+
+.aboutintro {
+  background-size: cover;
+  background-position: center;
+	  background-image: url("../img/bg/about.jpg");
+	width: 100%;
+      height: 100vh; }
+
+.shopintro {
+  background-size: cover;
+  background-position: center;
+	  background-image: url("../img/bg/shop2.jpg");
+	width: 100%;
+      height: 100vh; }
+
+#grad1 {
+    height: 200px;
+    background: grey; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #bdbdbd, #eeeeee); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #bdbdbd, #eeeeee); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #bdbdbd, #eeeeee); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #bdbdbd, #eeeeee); /* Standard syntax (must be last) */
+	background-size: cover;
+  background-position: center;
+      height: 100vh;
+}
+
+#grad2 {
+    
+    /* For browsers that do not support gradients */  
+	height: 100vh;
+	}
+
+
+
+
+
+h1 {
+  font-size: 2.5rem;
+	font-weight: 300;
+  line-height: 0.8;
+margin-top: 80px;
+}
+
+h2{
+  font-size: 2.5rem;
+	font-weight: 300;
+  line-height: 0.8;
+margin-top: 20px;
+}
+
+h3, h4 {font-weight: 300;
+  line-height: 0.8; 
+}
+
+h5 {font-weight: 400;
+  line-height: 1.1rem;
+	font-size: 1.1rem;
+	margin: 15px 0px 10px 0px;
+	
+}
+
+h6 {font-weight: 200;
+	font-size: 1.1rem;
+  line-height: 1.1;
+	margin: 5px 0px 15px 0px;
+	
+}
+
+h7 {font-weight: 600;
+	  line-height: 1.1;
+	}
+
+/**h4 {
+  font-size: 1.4rem;
+  line-height: 0.8;
+  margin: 1.1rem 0 1.1rem 0; }
+
+*/
+.pink-text {
+	
+  color: #EB008B !important;
+}
+
+.submenu a{
+	padding: 10px;
+	color: #fff;
+	}
+
+
+
+
+
+
+
+
+
+/** waves */
+
+.waves-effect.waves-white .waves-ripple {
+      background-color: rgba(250,250,250,1.00)
+    }
+.waves-effect.waves-greyish .waves-ripple {
+      background-color: rgba(38,37,37,1.00)
+    }
+.waves-effect.waves-green .waves-ripple {
+      background-color: rgba(92,185,149,1.00)
+    }
+
+
+/*Media Gallery*/
+
+.gallery img {
+	padding: 10px 0px;
+	
+}
+
+
+
+/* DANIEL ADD */
+@media only screen and (min-width: 601px) {
+  nav {
+    line-height: 30px; } }
+
+nav {
+  line-height: 30px;
+  height: auto;
+  padding: 1rem; }
+
+nav ul li {
+  transition: all 0.2s ease-in-out;
+  border: 2px RGBA(256, 256, 256, 0) solid; }
+
+nav ul li:hover {
+  border: 2px RGBA(256, 256, 256, 0) solid; }
+
+nav ul li.active, nav ul li.active:hover {
+  border: 2px white solid; }
+
+nav ul li a {
+  padding: 5px 15px;
+color: black;}
+
+nav .brand-logo {
+  height: auto;
+  padding: 0px !important; }
+
+nav .brand-logo img {
+  height: 30px;
+margin-top: 10px;
+	margin-left: 10px;}
+
+nav.fixed {
+  position: fixed; }
+
+nav .button-collapse {
+  height: auto;
+  margin-top: 5px;
+  margin-right: 10px; }
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+  line-height: 30px;
+  font-size: 3em;
+  height: auto; }
+
+.subscribe #email {
+  
+  border: 0px white solid;
+	border-radius: 1000px;
+  color: white;
+	height: 34px;
+	display: inline-block;
+	background-color: white;
+  	text-align: center;
+	margin-top:0px;
+	width: 100%;
+	color: black;
+		}
+
+.subscribe label {
+  display: none; }
+
+#top, #bottom, #left, #right {
+	background: #fff;
+	position: fixed;
+
+	z-index: 2000;
+	}
+
+#left, #right {
+		top: 0; bottom: 0;
+		width: 10px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top {
+		left: 0; right: 0;
+		height: 10px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+	
+#bottom {
+		left: 0; right: 0;
+		height: 10px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+.poi{
+	position: relative;
+}
+
+
+.poi #poiback {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+}
+
+.poi #poiforward {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 50%;
+	left: 92%;
+}
+
+
+.poi #poi1 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 27%;
+	left: 9%;
+}
+
+.poi #poi2 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 35%;
+	left: 35%;
+}
+
+.poi #poi3 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 27%;
+	left: 68%;
+}
+
+.poi #poi4 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 60%;
+	left: 35%;
+}
+
+.poi #poi21 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 20%;
+	left: 27%;	
+}
+
+.poi #poi22 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 59%;
+	left: 42%;
+}
+
+.poi #poi23 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 15%;
+	left: 40%;
+}
+
+.poi #poi24 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 40%;
+	left: 53%;
+}
+
+.poi #poi25 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 50%;
+	left: 59%;
+}
+
+.poi #poi31 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+}
+
+.poi #poi32 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 50%;
+	left: 62%;
+}
+
+.poi #poi41 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 55%;
+	left: 30%;
+}
+
+.poi #poi42 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+}
+
+.poi #poi43 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+
+.poi #poi51 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 0%;
+	left: 44%;
+}
+
+.poi #poi52 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 9%;
+	left: 56%;
+}
+
+.poi #poi53 {
+	
+	z-index: 1000;
+	position: absolute;
+	top: 88%;
+	left: 48.5%;
+}
+
+
+.backdrop {
+	background-color: rgba(0,150,136,.50);
+	
+}
+
+.material-tooltip {
+  padding: 10px 15px;
+  font-size: 1rem;
+    background-color: transparent;
+  border-radius: 1000px;
+  color: #fff;
+  min-height: 40px;
+	max-width: 200px;
+  line-height: 120%;
+  opacity: 0;
+ }
+
+.btn {
+  border: none;
+  border-radius: 1000px;
+  line-height: 120%;
+	padding: 10px 25px 10px 25px;
+}
+
+.subscribe {
+  display: inline;
+  width: 350px;
+  justify-content: space-around;
+  margin: auto; }
+
+.container {
+  padding-bottom: 20px;
+  max-width: 1280px;
+  width: 70%;
+}
+
+.containerwide {
+  padding-bottom: 20px;
+  max-width: 1280px;
+  width: 90%;
+}
+
+.separator{
+	margin-top: 40px;
+	
+}
+
+.variationcontainer { float: left; position: relative; } 
+.cornerimage { position: absolute; top: 0; right: 0; } 
+
+
+#cover_xs {
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+#cover_s {
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+#cover_m {
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+#cover_l {
+    opacity: 1;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.carousel{
+	height: 768px;
+}
+
+
+#rotator {
+    font-size: 416px;
+    width: 1em;
+    height: 1em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: transparent url(http://www.3sessanta.it/images/polaroid/sprite_polaroid_total.jpg) no-repeat 0 0;
+}
+
+
+/* 360 */
+
+
+
+.threesixty {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.threesixty .threesixty_images {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.threesixty .threesixty_images img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+.threesixty .threesixty_images img.previous-image {
+  visibility: hidden;
+  /*
+           Do not put here any other styles.
+           It causes massive recalc / repaints and image flickering,
+           especially on Firefox.
+        */
+
+}
+.threesixty .threesixty_images img.current-image {
+  visibility: visible;
+  /*
+           Do not put here any other styles.
+           It causes massive recalc / repaints and image flickering,
+           especially on Firefox.
+        */
+
+}
+.threesixty .spinner {
+  width: 60px;
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.threesixty .spinner span {
+  font-family: Arial, "MS Trebuchet", sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #FFF;
+  text-align: center;
+  line-height: 30px;
+  display: block;
+}
+.threesixty .nav_bar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 11;
+}
+.threesixty .nav_bar a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  float: left;
+  background: url(/assets/sprites.png) no-repeat;
+  text-indent: -99999px;
+}
+.threesixty .nav_bar a.nav_bar_play {
+  background-position: 0 0 !important;
+}
+.threesixty .nav_bar a.nav_bar_previous {
+  background-position: 0 -73px !important;
+}
+.threesixty .nav_bar a.nav_bar_stop {
+  background-position: 0 -37px !important;
+}
+.threesixty .nav_bar a.nav_bar_next {
+  background-position: 0 -104px !important;
+}
+/* html */
+.threesixty:-webkit-full-screen {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 200px;
+}
+.threesixty:-moz-full-screen {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding-top: 200px;
+}
+
+.card {
+	 overflow: visible;
+	
+}
+
+
+
+
+
+
+
+
+.side-nav {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  margin: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  height: 100%;
+  height: calc(100% + 60px);
+  height: -moz-calc(100%);
+  padding-bottom: 60px;
+  background-color: #fff;
+  z-index: 999;
+  overflow-y: auto;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: translateX(-105%);
+          transform: translateX(-105%);
+}
+
+.side-nav.right-aligned {
+  right: 0;
+  -webkit-transform: translateX(105%);
+          transform: translateX(105%);
+  left: auto;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.side-nav .collapsible {
+  margin: 0;
+}
+
+.side-nav li {
+  float: none;
+  line-height: 48px;
+}
+
+.side-nav li.active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.side-nav li > a {
+  color: rgba(0, 0, 0, 0.87);
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px;
+}
+
+.side-nav li > a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-flat, .side-nav li > a.btn-floating {
+  margin: 10px 15px;
+}
+
+.side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-floating {
+  color: #fff;
+}
+
+.side-nav li > a.btn-flat {
+  color: #343434;
+}
+
+.side-nav li > a.btn:hover, .side-nav li > a.btn-large:hover, .side-nav li > a.btn-large:hover {
+  background-color: #2bbbad;
+}
+
+.side-nav li > a.btn-floating:hover {
+  background-color: #26a69a;
+}
+
+.side-nav li > a > i,
+.side-nav li > a > [class^="mdi-"], .side-nav li > a li > a > [class*="mdi-"],
+.side-nav li > a > i.material-icons {
+  float: left;
+  height: 48px;
+  line-height: 48px;
+  margin: 0 32px 0 0;
+  width: 24px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.side-nav .divider {
+  margin: 8px 0 0 0;
+}
+
+.side-nav .subheader {
+  cursor: initial;
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.side-nav .subheader:hover {
+  background-color: transparent;
+}
+
+.side-nav .user-view,
+.side-nav .userView {
+  position: relative;
+  padding: 32px 32px 0;
+  margin-bottom: 8px;
+}
+
+.side-nav .user-view > a,
+.side-nav .userView > a {
+  height: auto;
+  padding: 0;
+}
+
+.side-nav .user-view > a:hover,
+.side-nav .userView > a:hover {
+  background-color: transparent;
+}
+
+.side-nav .user-view .background,
+.side-nav .userView .background {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.side-nav .user-view .circle, .side-nav .user-view .name, .side-nav .user-view .email,
+.side-nav .userView .circle,
+.side-nav .userView .name,
+.side-nav .userView .email {
+  display: block;
+}
+
+.side-nav .user-view .circle,
+.side-nav .userView .circle {
+  height: 64px;
+  width: 64px;
+}
+
+.side-nav .user-view .name,
+.side-nav .user-view .email,
+.side-nav .userView .name,
+.side-nav .userView .email {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.side-nav .user-view .name,
+.side-nav .userView .name {
+  margin-top: 16px;
+  font-weight: 500;
+}
+
+.side-nav .user-view .email,
+.side-nav .userView .email {
+  padding-bottom: 16px;
+  font-weight: 400;
+}
+
+
+
+.side-nav.fixed {
+  left: 0;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  position: fixed;
+}
+
+.side-nav.fixed.right-aligned {
+  right: 0;
+  left: auto;
+}
+
+@media only screen and (max-width: 992px) {
+  .side-nav.fixed {
+    -webkit-transform: translateX(-105%);
+            transform: translateX(-105%);
+  }
+  .side-nav.fixed.right-aligned {
+    -webkit-transform: translateX(105%);
+            transform: translateX(105%);
+  }
+  .side-nav a {
+    padding: 0 16px;
+  }
+  .side-nav .user-view,
+  .side-nav .userView {
+    padding: 16px 16px 0;
+  }
+}
+
+.side-nav .collapsible-body > ul:not(.collapsible) > li.active,
+.side-nav.fixed .collapsible-body > ul:not(.collapsible) > li.active {
+  background-color: #ee6e73;
+}
+
+.side-nav .collapsible-body > ul:not(.collapsible) > li.active a,
+.side-nav.fixed .collapsible-body > ul:not(.collapsible) > li.active a {
+  color: #fff;
+}
+
+.side-nav .collapsible-body {
+  padding: 0;
+}
+
