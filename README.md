@@ -1,6 +1,6 @@
 # emptinesswebsite
-## access
+## pages access
 https://khonsou.github.io/emptinesswebsite/
 
-## webpage
+## public homepage 
 http://emptiness.work/
